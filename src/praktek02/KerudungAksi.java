@@ -8,6 +8,7 @@ public class KerudungAksi {
        
         rl.cetakInfo();
         System.out.println("Total Kerudung = "+rl.hitungTotal());
+        rl.cetakTotal();
     }
     
 }
