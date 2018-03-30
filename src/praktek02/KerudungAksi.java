@@ -7,6 +7,7 @@ public class KerudungAksi {
         rl.Jumlah = 10;
        
         rl.cetakInfo();
+        System.out.println("Total Kerudung = "+rl.hitungTotal());
     }
     
 }

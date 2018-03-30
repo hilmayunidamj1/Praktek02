@@ -10,4 +10,9 @@ public class Kerudung {
         System.out.println("===============");
     }
     
+    Integer hitungTotal(){
+        Integer Total;
+        Total=Harga*Jumlah;
+        return Total;
+    }
 }
