@@ -5,6 +5,8 @@ public class KerudungAksi {
         Kerudung rl = new Kerudung();
         rl.Harga = 50000;
         rl.Jumlah = 10;
+       
+        rl.cetakInfo();
     }
     
 }
