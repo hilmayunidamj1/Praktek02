@@ -2,6 +2,11 @@ package praktek02;
 public class Kerudung {
     Integer Harga;
     Integer Jumlah;
+
+    public Kerudung() {
+        Harga=50000;
+        Jumlah=10;
+    }
     
     void cetakInfo(){
         System.out.println("===============");
@@ -14,5 +19,9 @@ public class Kerudung {
         Integer Total;
         Total=Harga*Jumlah;
         return Total;
+    }
+    
+    void cetakTotal(){
+        System.out.println("Totalnya adalah ="+hitungTotal());
     }
 }
